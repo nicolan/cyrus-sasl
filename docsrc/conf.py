@@ -41,6 +41,7 @@ extensions = [
 ]
 
 extensions.append('sphinxlocal.builders.manpage')
+extensions.append('sphinxlocal.roles.saslman')
 
 intersphinx_mapping = {'cyrusimap': ('http://www.cyrusimap.org/dev', None)}
 
@@ -269,6 +270,107 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
+    (
+            'sasl/reference/manpages/library/sasl',
+            'sasl',
+            u'Cyrus SASL Documentation',
+            [
+                    u'The Cyrus Team',
+                ],
+            3
+    ),
+
+    (
+            'sasl/reference/manpages/library/sasl_authorize_t',
+            'sasl_authorize_t',
+            u'Cyrus SASL Documentation',
+            [
+                    u'The Cyrus Team',
+                ],
+            3
+    ),
+
+    (
+            'sasl/reference/manpages/library/sasl_auxprop',
+            'sasl_auxprop',
+            u'Cyrus SASL Documentation',
+            [
+                    u'The Cyrus Team',
+                ],
+            3
+    ),
+    (
+            'sasl/reference/manpages/library/sasl_auxprop_getctx',
+            'sasl_auxprop_getctx',
+            u'Cyrus SASL Documentation',
+            [
+                    u'The Cyrus Team',
+                ],
+            3
+    ),
+    (
+            'sasl/reference/manpages/library/sasl_auxprop_request',
+            'sasl_auxprop_request',
+            u'Cyrus SASL Documentation',
+            [
+                    u'The Cyrus Team',
+                ],
+            3
+    ),
+    (
+            'sasl/reference/manpages/library/sasl_callbacks',
+            'sasl_callbacks',
+            u'Cyrus SASL Documentation',
+            [
+                    u'The Cyrus Team',
+                ],
+            3
+    ),
+    (
+            'sasl/reference/manpages/library/sasl_canon_user_t',
+            'sasl_canon_user_t',
+            u'Cyrus SASL Documentation',
+            [
+                    u'The Cyrus Team',
+                ],
+            3
+    ),
+    (
+            'sasl/reference/manpages/library/sasl_errors',
+            'sasl_errors',
+            u'Cyrus SASL Documentation',
+            [
+                    u'The Cyrus Team',
+                ],
+            3
+    ),
+    (
+            'sasl/reference/manpages/library/sasl_chalprompt_t',
+            'sasl_chalprompt_t',
+            u'Cyrus SASL Documentation',
+            [
+                    u'The Cyrus Team',
+                ],
+            3
+    ),
+    (
+            'sasl/reference/manpages/library/sasl_checkapop',
+            'sasl_checkapop',
+            u'Cyrus SASL Documentation',
+            [
+                    u'The Cyrus Team',
+                ],
+            3
+    ),
+    (
+            'sasl/reference/manpages/library/sasl_checkpass',
+            'sasl_checkpass',
+            u'Cyrus SASL Documentation',
+            [
+                    u'The Cyrus Team',
+                ],
+            3
+    ),
 ]
 
 # If true, show URL addresses after external links.
